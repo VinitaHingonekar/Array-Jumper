@@ -1,4 +1,6 @@
 #include "../../header/Player/PlayerView.h"
+#include "../../header/Player/PlayerModel.h"
+#include "../../header/Player/PlayerController.h"
 #include "../../header/Global/Config.h"
 #include "../../header/Global/ServiceLocator.h"
 
@@ -7,9 +9,11 @@ using namespace Global;
 
 namespace Player
 {
-	PlayerView::PlayerView()
+	//enum class PlayerState;
+	PlayerView::PlayerView(PlayerController* controller)
 	{
 		game_window = nullptr;
+		player_controller = controller;
 		player_image = new ImageView();
 	}
 
@@ -17,7 +21,8 @@ namespace Player
 
 	void PlayerView::initialize()
 	{
-	
+		game_window = ServiceLocator::getInstance()->getGraphicService()->getGameWindow();
+		LoadPlayer();
 	}
 
 	void PlayerView::update()
@@ -27,7 +32,13 @@ namespace Player
 
 	void PlayerView::render()
 	{
-	
+		switch (player_controller->GetPlayerState())
+		{
+			case PlayerState::ALIVE:
+				DrawPlayer();
+				break;
+
+		}
 	}
 
 	//Inititailize
@@ -51,13 +62,6 @@ namespace Player
 	{
 		CalculatePlayerDimensions();
 		InitializePlayerImage();
-	}
-
-	void PlayerView::initialize()
-	{
-		game_window = ServiceLocator::getInstance()->getGraphicService()->getGameWindow();
-		LoadPlayer();
-
 	}
 
 	// Update

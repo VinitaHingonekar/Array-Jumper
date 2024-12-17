@@ -1,11 +1,8 @@
-﻿  Config.cpp
-  EventService.cpp
+﻿  EventService.cpp
   main.cpp
   ServiceLocator.cpp
-  SoundService.cpp
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Sound\SoundService.cpp(67,30): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  PlayerView.cpp
   GameService.cpp
-  GraphicService.cpp
   CreditsScreenUIController.cpp
 E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,128): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
 E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,128): warning C4244:         with
@@ -45,11 +42,7 @@ E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuU
 E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,102): warning C4244:             T=unsigned int
 E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,102): warning C4244:         ]
   SplashScreenUIController.cpp
-  AnimatedImageView.cpp
   ButtonView.cpp
-  ImageView.cpp
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\UIElement\ImageView.cpp(68,23): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
-  TextView.cpp
   UIView.cpp
   UIService.cpp
   Generating Code...

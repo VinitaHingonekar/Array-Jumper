@@ -2,6 +2,10 @@ E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Global\Config.cpp;E:\
 E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Event\EventService.cpp;E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Array-Jumper\Debug\EventService.obj
 E:\Outscal\DataStructures\Array Jumper\Array-Jumper\main.cpp;E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Array-Jumper\Debug\main.obj
 E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Global\ServiceLocator.cpp;E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Array-Jumper\Debug\ServiceLocator.obj
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Player\PlayerController.cpp;E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Array-Jumper\Debug\PlayerController.obj
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Player\PlayerModel.cpp;E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Array-Jumper\Debug\PlayerModel.obj
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Player\PlayerService.cpp;E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Array-Jumper\Debug\PlayerService.obj
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Player\PlayerView.cpp;E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Array-Jumper\Debug\PlayerView.obj
 E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Sound\SoundService.cpp;E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Array-Jumper\Debug\SoundService.obj
 E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Main\GameService.cpp;E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Array-Jumper\Debug\GameService.obj
 E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Graphics\GraphicService.cpp;E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Array-Jumper\Debug\GraphicService.obj
