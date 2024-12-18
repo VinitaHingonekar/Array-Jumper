@@ -1,49 +1,16 @@
-﻿  EventService.cpp
-  main.cpp
-  ServiceLocator.cpp
-  PlayerView.cpp
-  GameService.cpp
-  CreditsScreenUIController.cpp
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,128): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,128): warning C4244:         with
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,128): warning C4244:         [
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,128): warning C4244:             T=unsigned int
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,128): warning C4244:         ]
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,102): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,102): warning C4244:         with
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,102): warning C4244:         [
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,102): warning C4244:             T=unsigned int
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Credits\CreditsScreenUIController.cpp(65,102): warning C4244:         ]
-  InstructionsUIController.cpp
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(61,128): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(61,128): warning C4244:         with
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(61,128): warning C4244:         [
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(61,128): warning C4244:             T=unsigned int
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(61,128): warning C4244:         ]
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(61,102): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(61,102): warning C4244:         with
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(61,102): warning C4244:         [
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(61,102): warning C4244:             T=unsigned int
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(61,102): warning C4244:         ]
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(73,31): warning C4018: '<': signed/unsigned mismatch
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(96,31): warning C4018: '<': signed/unsigned mismatch
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(107,31): warning C4018: '<': signed/unsigned mismatch
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(118,31): warning C4018: '<': signed/unsigned mismatch
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\Instructions\InstructionsUIController.cpp(129,31): warning C4018: '<': signed/unsigned mismatch
-  MainMenuUIController.cpp
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,128): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,128): warning C4244:         with
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,128): warning C4244:         [
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,128): warning C4244:             T=unsigned int
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,128): warning C4244:         ]
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,102): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,102): warning C4244:         with
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,102): warning C4244:         [
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,102): warning C4244:             T=unsigned int
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\UI\MainMenu\MainMenuUIController.cpp(53,102): warning C4244:         ]
-  SplashScreenUIController.cpp
-  ButtonView.cpp
-  UIView.cpp
+﻿  LevelController.cpp
+  LevelService.cpp
+  LevelView.cpp
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(46,118): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(46,118): warning C4244:         with
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(46,118): warning C4244:         [
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(46,118): warning C4244:             T=unsigned int
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(46,118): warning C4244:         ]
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(46,92): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(46,92): warning C4244:         with
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(46,92): warning C4244:         [
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(46,92): warning C4244:             T=unsigned int
+E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(46,92): warning C4244:         ]
   UIService.cpp
   Generating Code...
   Array-Jumper.vcxproj -> E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Debug\Array-Jumper.exe
