@@ -27,8 +27,8 @@ namespace Level
 		level_view->render();
 	}
 
-	BlockType getCurrentBoxValue(int currentPosition)
+	BlockType LevelController::getCurrentBoxValue(int currentPosition)
 	{
-		//level_model->getCurrentBoxValue();
+		return level_model->getCurrentBoxValue(currentPosition);
 	}
 }
