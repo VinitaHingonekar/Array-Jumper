@@ -1,5 +1,8 @@
 #pragma once
+#include "../Event/EventService.h"
+#include "MovementDirection.h"
 
+using namespace Event;
 namespace Player
 {
 	class PlayerModel;
@@ -22,9 +25,15 @@ namespace Player
 		void Update();
 		void Render();
 
+		void move(MovementDirection direction);
+		bool isPositionInBound(int targetPosition);
+
 		PlayerState GetPlayerState() const;
 		void SetPlayerState(PlayerState new_state);
 
 		int getCurrentPosition();
+
+		EventService* event_service;
+		void readInput();
 	};
 }
