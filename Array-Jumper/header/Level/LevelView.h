@@ -36,6 +36,8 @@ namespace Level
 		void drawBox(sf::Vector2f position);
 		void drawBoxValue(sf::Vector2f position, BlockType box_value);
 
+
+
 	public:
 
 		LevelView(LevelController* controller);
@@ -46,6 +48,9 @@ namespace Level
 		void render();
 
 		void calculateBoxDimensions();
+		void calculateBoxWidthHeight();
+		void calculateBoxSpacing();
+		sf::Vector2f calculateBoxPosition(int index);
 
 		UI::UIElement::ImageView* getBoxOverlayImage(BlockType block_type);
 	};
