@@ -1,8 +1,11 @@
 #pragma once
 #include "../Event/EventService.h"
 #include "MovementDirection.h"
+#include "../../header/Level/BlockType.h"
 
 using namespace Event;
+using namespace Level;
+
 namespace Player
 {
 	class PlayerModel;
@@ -35,5 +38,8 @@ namespace Player
 
 		EventService* event_service;
 		void readInput();
+		//BlockType getCurrentBoxValue(int currentPosition);
+		Level::BlockType getCurrentBoxValue(int currentPosition);
+		void jump(MovementDirection direction);
 	};
 }

@@ -20,5 +20,5 @@ namespace Player
 
 		int GetCurrentPosition();
 		void SetCurrentPosition(int pos);
-	};
+	};	
 }

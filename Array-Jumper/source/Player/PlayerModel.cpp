@@ -26,4 +26,5 @@ namespace Player
 		{
 			current_position = new_position;
 		}
+
 }
