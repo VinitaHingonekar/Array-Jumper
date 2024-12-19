@@ -1,14 +1,4 @@
-﻿  LevelController.cpp
-  LevelView.cpp
+﻿  PlayerController.cpp
+  PlayerView.cpp
   Generating Code...
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(56,118): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(56,118): warning C4244:         with
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(56,118): warning C4244:         [
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(56,118): warning C4244:             T=unsigned int
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(56,118): warning C4244:         ]
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(56,92): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(56,92): warning C4244:         with
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(56,92): warning C4244:         [
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(56,92): warning C4244:             T=unsigned int
-E:\Outscal\DataStructures\Array Jumper\Array-Jumper\source\Level\LevelView.cpp(56,92): warning C4244:         ]
   Array-Jumper.vcxproj -> E:\Outscal\DataStructures\Array Jumper\Array-Jumper\Debug\Array-Jumper.exe

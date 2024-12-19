@@ -2,6 +2,11 @@
 
 namespace Player
 {
+		void Player::PlayerModel::initialize()
+		{
+			//Yet to implement
+		}
+
 		PlayerState PlayerModel::GetPlayerState() const
 		{
 			return player_state;

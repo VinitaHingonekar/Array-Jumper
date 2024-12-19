@@ -24,5 +24,7 @@ namespace Player
 
 		PlayerState GetPlayerState() const;
 		void SetPlayerState(PlayerState new_state);
+
+		int getCurrentPosition();
 	};
 }

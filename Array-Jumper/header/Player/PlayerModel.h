@@ -14,6 +14,7 @@ namespace Player
 		int current_position;
 
 	public:
+		void initialize();
 		PlayerState GetPlayerState() const;
 		void SetPlayerState(PlayerState new_state);
 

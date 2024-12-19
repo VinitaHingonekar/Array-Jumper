@@ -18,7 +18,7 @@ namespace Player
 
 	void PlayerController::Initialize()
 	{
-		//player_model->initialize();
+		player_model->initialize();
 		player_view->initialize();
 	}
 
@@ -46,5 +46,10 @@ namespace Player
 	void PlayerController::SetPlayerState(PlayerState new_state)
 	{
 		player_model->SetPlayerState(new_state);
+	}
+
+	int PlayerController::getCurrentPosition()
+	{
+		return player_model->GetCurrentPosition();
 	}
 }

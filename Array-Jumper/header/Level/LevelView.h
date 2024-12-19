@@ -53,5 +53,7 @@ namespace Level
 		sf::Vector2f calculateBoxPosition(int index);
 
 		UI::UIElement::ImageView* getBoxOverlayImage(BlockType block_type);
+
+		BoxDimensions getBoxDimensions();
 	};
 }
