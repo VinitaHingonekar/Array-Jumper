@@ -33,4 +33,18 @@ namespace Player
 		delete(player_controller);
 	}
 
+	void PlayerService::takeDamage()
+	{
+		player_controller->takeDamage();
+	}
+
+	void PlayerService::levelComplete()
+	{
+		player_controller->reset();
+	}
+
+	int PlayerService::getCurrentLives()
+	{
+		return player_controller->getCurrentLives();
+	}
 }
