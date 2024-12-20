@@ -3,7 +3,7 @@
 
 namespace Level
 {
-	struct LevelData
+	/*struct LevelData
 	{
 		static const int NUMBER_OF_BOXES = 10;
 
@@ -21,5 +21,12 @@ namespace Level
             BlockType::TARGET
         };
 
-	};
+	};*/
+
+    struct LevelData
+    {
+        static const int NUMBER_OF_BOXES = 10;
+
+        BlockType level_boxes[NUMBER_OF_BOXES];
+    };
 }
