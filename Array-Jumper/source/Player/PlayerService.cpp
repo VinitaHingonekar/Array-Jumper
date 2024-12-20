@@ -33,4 +33,8 @@ namespace Player
 		delete(player_controller);
 	}
 
+	void PlayerService::takeDamage()
+	{
+		player_controller->takeDamage();
+	}
 }

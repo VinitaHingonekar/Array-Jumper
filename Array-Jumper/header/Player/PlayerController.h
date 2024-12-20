@@ -1,10 +1,12 @@
 #pragma once
 #include "../Event/EventService.h"
+#include "../Gameplay/GameplayService.h"
 #include "MovementDirection.h"
 #include "../../header/Level/BlockType.h"
 
 using namespace Event;
 using namespace Level;
+using namespace Gameplay;
 
 namespace Player
 {
@@ -37,9 +39,13 @@ namespace Player
 		int getCurrentPosition();
 
 		EventService* event_service;
+		GameplayService* gameplay_service;
+
 		void readInput();
 		//BlockType getCurrentBoxValue(int currentPosition);
 		Level::BlockType getCurrentBoxValue(int currentPosition);
 		void jump(MovementDirection direction);
+
+		void takeDamage();
 	};
 }

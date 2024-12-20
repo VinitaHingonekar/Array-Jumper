@@ -20,5 +20,7 @@ namespace Player
 		void Update();
 		void Render();
 
+		void takeDamage();
+
 	};
 }
