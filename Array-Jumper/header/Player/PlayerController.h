@@ -47,5 +47,6 @@ namespace Player
 		void jump(MovementDirection direction);
 
 		void takeDamage();
+		void reset();
 	};
 }
